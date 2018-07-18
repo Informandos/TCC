@@ -13,16 +13,26 @@
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet>
+<<<<<<< HEAD
         <servlet-name>servelts_login</servlet-name>
         <servlet-class>servlets.servelts_login</servlet-class>
+=======
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>controller.servlet.Servlet1</servlet-class>
+>>>>>>> 06d03d6aec80126beee0b27dc7f0c2c628c5aab0
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+<<<<<<< HEAD
         <servlet-name>servelts_login</servlet-name>
         <url-pattern>/servelts_login</url-pattern>
+=======
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/Servlet1</url-pattern>
+>>>>>>> 06d03d6aec80126beee0b27dc7f0c2c628c5aab0
     </servlet-mapping>
     <session-config>
         <session-timeout>
