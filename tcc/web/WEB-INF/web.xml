@@ -13,17 +13,17 @@
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet>
-        <servlet-name>Servlet1</servlet-name>
-        <servlet-class>controller.servlet.Servlet1</servlet-class>
-   </servlet>
+        <servlet-name>Servlet_login</servlet-name>
+        <servlet-class>controller.servlet.Servlet_login</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-       <servlet-name>Servlet1</servlet-name>
-        <url-pattern>/Servlet1</url-pattern>
-   </servlet-mapping>
+        <servlet-name>Servlet_login</servlet-name>
+        <url-pattern>/Servlet_login</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
