@@ -1,10 +1,5 @@
-
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Login</title>
@@ -12,21 +7,18 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <form action="Servlet_login" method="POST">
         <h1>Login</h1>
-        <form action ="Servlet1" method="post">
-            E-Mail<br>
-            <input type="text" name="email" Value="email"><br>
-            Senha<br>
-            <input type="password" name="senha"><br>
-            <button id="login_register_btn" type="submit">login</button> 
+        E-Mail<br>
+        <input type="text" name="e-mail" Value="E-mail"><br>
+        Senha<br>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Login">
         </form>
-
         <div>
-            <form action = "esqueci_a_senha.html">
-                <button id="login_lost_btn" type="submit">esqueci a senha</button>
-            </form>
-            
+            <a href="recuperacaoSenha.html">Esqueci a senha</a><br>
+            <a href="Tela_cadastro.html">Cadastro</a>
         </div>
+        <a href="Tela_desenvolvedores.html">Desenvolvedores</a>
     </body>
 </html>
-
