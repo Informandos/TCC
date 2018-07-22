@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form action="Servlet_login" method="POST">
+        <form action="ServletLogin" method="POST">
         <h1>Login</h1>
         E-Mail<br>
         <input type="text" name="e-mail" Value="E-mail"><br>
@@ -16,9 +16,9 @@
         <input type="submit" value="Login">
         </form>
         <div>
-            <a href="recuperacaoSenha.html">Esqueci a senha</a><br>
-            <a href="Tela_cadastro.html">Cadastro</a>
+            <a href="recuperaçãoDeSenha.jsp">Esqueci a senha</a><br>
+            <a href="cadastro.jsp">Cadastro</a>
         </div>
-        <a href="Tela_desenvolvedores.html">Desenvolvedores</a>
+        <a href="desenvolvedores.jsp">Desenvolvedores</a>
     </body>
 </html>

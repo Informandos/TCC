@@ -37,8 +37,6 @@ public class Servlet_login extends HttpServlet {
         }else{
             request.getRequestDispatcher("login.html");
         }
-        
-        
     }
 
 }
